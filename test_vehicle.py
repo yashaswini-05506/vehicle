@@ -1,4 +1,4 @@
-from vehical import vehicle_details
+from vehicle import vehicle_details
 
 def test_vehicle_details():
     vehicle_number = "KA-01-1234"
@@ -12,4 +12,4 @@ def test_vehicle_details():
         "Year of Manufacture: 2022\n"
     )
     actual_output = vehicle_details(vehicle_number, owner_name, vehicle_type, year_of_manufacture)
-    assert actual_output == expected_output
+    assert actual_output == expected_output
