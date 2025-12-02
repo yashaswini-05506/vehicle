@@ -12,5 +12,4 @@ if __name__ == "__main__":
     owner_name = "yashaswini"
     vehicle_type = "two wheeler"
     year_of_manufacture = 2022
-    print(vehicle_details(vehicle_number, owner_name, 
-                          vehicle_type, year_of_manufacture))
+    print(vehicle_details(vehicle_number, owner_name, vehicle_type, year_of_manufacture))
