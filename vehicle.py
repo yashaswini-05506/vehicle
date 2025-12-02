@@ -7,9 +7,10 @@ def vehicle_details(vehicle_number, owner_name, vehicle_type, year_of_manufactur
     )
     return result
 
-if __name__ == "__main__":
-    vehicle_number = "0137"
-    owner_name = "Yashaswini"
-    vehicle_type = "Car"
-    year_of_manufacture = 2022
-    print(vehicle_details(vehicle_number, owner_name, vehicle_type, year_of_manufacture))
+if _name_ == "_main_":
+    vehicle_number = "KA31ca0541"
+    owner_name = "yashaswini"
+    vehicle_type = "two wheeler"
+    year_of_manufacture = 2020
+    print(vehicle_details(vehicle_number, owner_name, 
+                          vehicle_type, year_of_manufacture))
